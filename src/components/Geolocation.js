@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-class GeolocationExample extends Component {
+class Geolocation extends Component {
 
   constructor(props) {
     super(props);
@@ -34,8 +34,6 @@ class GeolocationExample extends Component {
 
   render() {
 
-    conso
-
     return (
       <View>
         <Text>
@@ -57,4 +55,4 @@ var styles = StyleSheet.create({
   },
 });
 
-export default GeolocationExample;
+export default Geolocation;
