@@ -1,19 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-// exports.framework = 'React';
-// exports.title = 'Geolocation';
-// exports.description = 'Examples of using the Geolocation API.';
-
-// exports.examples = [
-//   {
-//     title: 'navigator.geolocation',
-//     render: function(): React.Element<any> {
-//       return <GeolocationExample />;
-//     },
-//   }
-// ];
-
 class GeolocationExample extends Component {
 
   constructor(props) {
@@ -23,7 +10,7 @@ class GeolocationExample extends Component {
       lastPosition: 'unknown',
     }
   }
-  
+
   watchID: ?number = null;
 
   componentDidMount() {
@@ -46,6 +33,9 @@ class GeolocationExample extends Component {
   }
 
   render() {
+
+    conso
+
     return (
       <View>
         <Text>
