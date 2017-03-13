@@ -4,7 +4,7 @@ import { Text, AppRegistry, View } from 'react-native';
 import Header from './src/components/Header';
 import Location from './src/components/Location';
 import Geolocation from './src/components/Geolocation';
-import Sensors from './src/components/Sensors';
+import StepCounter from './src/components/StepCounter';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Header />
         <Location />
         <Geolocation />
-        <Sensors />
+        <StepCounter />
       </View>
     );
 };
