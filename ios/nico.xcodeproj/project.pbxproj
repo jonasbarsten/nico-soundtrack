@@ -37,7 +37,8 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		703A516AD1A94EFC841190F5 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD708CEE235489A8D600998 /* libRNSound.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		B1C8B3C21E7711E200FE8A7E /* libRNPedometer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C8B3C11E7711B900FE8A7E /* libRNPedometer.a */; };
+		B1C8B3FD1E771C7D00FE8A7E /* kick_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1C8B3FB1E771C7D00FE8A7E /* kick_1.wav */; };
+		B1C8B3FE1E771C7D00FE8A7E /* snare_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1C8B3FC1E771C7D00FE8A7E /* snare_1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,13 +231,6 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		B1C8B3C01E7711B900FE8A7E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B1C8B3BC1E7711B900FE8A7E /* RNPedometer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 844442D81CB01D4A00E10B29;
-			remoteInfo = RNPedometer;
-		};
 		B1C8B3EC1E771AD200FE8A7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 05D16BF2369F487488673D0A /* RNSound.xcodeproj */;
@@ -273,7 +267,8 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		B1C8B3BC1E7711B900FE8A7E /* RNPedometer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPedometer.xcodeproj; path = "../node_modules/react-native-pedometer/RNPedometer.xcodeproj"; sourceTree = "<group>"; };
+		B1C8B3FB1E771C7D00FE8A7E /* kick_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick_1.wav; path = ../src/assets/audio/kick_1.wav; sourceTree = "<group>"; };
+		B1C8B3FC1E771C7D00FE8A7E /* snare_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare_1.wav; path = ../src/assets/audio/snare_1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,7 +284,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C8B3C21E7711E200FE8A7E /* libRNPedometer.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -457,7 +451,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				B1C8B3BC1E7711B900FE8A7E /* RNPedometer.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -486,6 +479,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B1C8B3FB1E771C7D00FE8A7E /* kick_1.wav */,
+				B1C8B3FC1E771C7D00FE8A7E /* snare_1.wav */,
 				13B07FAE1A68108700A75B9A /* nico */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* nicoTests */,
@@ -502,14 +497,6 @@
 				00E356EE1AD99517003FC87E /* nicoTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* nico-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* nico-tvOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B1C8B3BD1E7711B900FE8A7E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B1C8B3C11E7711B900FE8A7E /* libRNPedometer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -679,10 +666,6 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-				},
-				{
-					ProductGroup = B1C8B3BD1E7711B900FE8A7E /* Products */;
-					ProjectRef = B1C8B3BC1E7711B900FE8A7E /* RNPedometer.xcodeproj */;
 				},
 				{
 					ProductGroup = B1C8B3CF1E771AD100FE8A7E /* Products */;
@@ -875,13 +858,6 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B1C8B3C11E7711B900FE8A7E /* libRNPedometer.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNPedometer.a;
-			remoteRef = B1C8B3C01E7711B900FE8A7E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		B1C8B3ED1E771AD200FE8A7E /* libRNSound.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -903,8 +879,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C8B3FE1E771C7D00FE8A7E /* snare_1.wav in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B1C8B3FD1E771C7D00FE8A7E /* kick_1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

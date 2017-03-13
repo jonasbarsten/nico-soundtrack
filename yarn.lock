@@ -2482,6 +2482,10 @@ micromatch@^2.1.5, micromatch@^2.3.11:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
+midi-player-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/midi-player-js/-/midi-player-js-1.0.2.tgz#d7cd8d4f880e0b9a8a614117b34a5ab6357b87bb"
+
 "mime-db@>= 1.24.0 < 2", mime-db@~1.26.0:
   version "1.26.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.26.0.tgz#eaffcd0e4fc6935cf8134da246e2e6c35305adff"
@@ -2902,6 +2906,14 @@ react-clone-referenced-element@^1.0.1:
 react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
+
+react-native-pedometer@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-pedometer/-/react-native-pedometer-0.0.6.tgz#d089214b6c83d094dc09cb3b770b37b8eb029d74"
+
+react-native-sound@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/react-native-sound/-/react-native-sound-0.9.1.tgz#b14c1bc89ab3ce07655c152a3752355e389dc6e1"
 
 react-native@0.42.0:
   version "0.42.0"
